@@ -1,0 +1,30 @@
+.NavagationItems {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+}
+
+.NavagationItems a {
+    color: #7ca3d2;
+    font-family: "Lato";
+    text-decoration: none;
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+    display: block;
+}
+
+.NavagationItems a:hover,
+.NavagationItems a:active,
+.NavagationItems a:active{
+    background-color: #FFFFFF;
+    border-bottom:  4px solid #7ca3d2;
+    color: #7ca3d2;
+}
+
+
+
