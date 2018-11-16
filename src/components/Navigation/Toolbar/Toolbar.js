@@ -4,7 +4,7 @@ import NavigationItems from '../NavigationItems/NavigationItems.js';
 
 const toolbar = (props) => (
     <header className={classes.Toolbar}>
-        <nav>
+        <nav className={classes.DesktopOnly}> 
             <NavigationItems/>
         </nav>
     </header>

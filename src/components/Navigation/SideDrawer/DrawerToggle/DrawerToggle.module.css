@@ -1,0 +1,19 @@
+.DrawerToggle {
+        display: block;
+        text-align: center;
+        width: 10%;
+        font-size: 40px;
+        cursor: pointer;
+}
+
+.DrawerToggle div {
+    width: 90%;
+    height: 3px;
+    background-color: black;
+}
+
+@media (min-width: 500px) {
+    .DrawerToggle {
+        display: none;
+    }
+}

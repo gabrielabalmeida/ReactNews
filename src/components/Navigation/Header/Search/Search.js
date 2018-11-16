@@ -4,8 +4,8 @@ import classes from './Search.module.css';
 
 const search = () => (
     <form className={classes.Search}>
-        <input type="text" autofocus/>
-        <span><i class="fas fa-search"></i></span>
+        <input type="text" autoFocus/>
+        <span id='search'><i class="fas fa-search"></i></span>
     </form>
 );
 
