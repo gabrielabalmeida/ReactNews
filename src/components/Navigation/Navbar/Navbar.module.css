@@ -1,0 +1,12 @@
+.Navbar{
+    background-color: #f1eff1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 1790;
+    transition: all .3s ease-out;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+}
+

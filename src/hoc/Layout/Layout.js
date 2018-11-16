@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-import Aux from '../../hoc/Aux/Aux.js';
+import Aux from '../Aux/Aux';
 import classes from './Layout.module.css';
-import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer.js'
-import Header from '../../components/Navigation/Header/Header.js';
+import Navbar from '../../components/Navigation/Navbar/Navbar.js';
+import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
-class Layout extends Component{
+class Layout extends Component {
     state = {
         showSideDrawer: false
     }
@@ -18,12 +18,12 @@ class Layout extends Component{
         this.setState( ( prevState ) => {
             return { showSideDrawer: !prevState.showSideDrawer };
         } );
-    }   
-    
-    render () { 
+    }
+
+    render () {
         return (
             <Aux>
-                <Header drawerToggleClicked={this.sideDrawerToggleHandler} />
+                <Navbar drawerToggleClicked={this.sideDrawerToggleHandler} />
                 <SideDrawer
                     open={this.state.showSideDrawer}
                     closed={this.sideDrawerClosedHandler} />
