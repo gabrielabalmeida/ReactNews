@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import Aux from '../../hoc/Aux/Aux.js';
-import Articles from '../../components/Articles/Articles.js';
+import News from '../../components/News/News.js';
 
 class WebediaBuilder extends Component{
     render () {
         return (
             <Aux>
-                <Articles/>
+                <News/>
             </Aux>
         )
     }
